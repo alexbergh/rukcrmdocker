@@ -1,0 +1,4 @@
+<VirtualHost *:80>
+  ServerName www.rukovoditel.loc
+  ProxyPass / http://ruk:8080/
+</VirtualHost>
